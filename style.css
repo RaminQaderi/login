@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #4c2be23a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cantainer{
+    display: flex;
+
+}
+.cantainer img{
+    width: 400px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.cantainer .loginBox{
+    width: 350px;
+    height: 360px;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+}
+.loginTxt{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+}
+.loginBox .loginform{
+    padding: 30px;
+    border-top: 1px solid rgba(128, 128, 128, 0.205);
+    margin-top: 30px;
+}
+.loginBox .form .data{
+    width: 100%;
+    padding: 5px 0px;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+}
+.loginBox .loginform .data:focus{
+    outline: none;
+    
+}
+.errorTxt{
+  
+
+}
+.loginBox .loginform .forgatPassword{
+    display: block;
+    color: rgba(133, 131, 131, 0.555);
+    font-size: 18px;
+    margin-top: 15px;
+}
+.loginBox .loginform .Btn{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.459);
+}
+.loginBox .loginform .Btn:hover{
+    background-color: #0984e3;
+}
+.errorTxt{
+    color: red;
+    
+}
